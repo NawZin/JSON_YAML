@@ -4,4 +4,5 @@ port: 3306
 enabled: true
 legacy: yes
 
-database_new: <<*common_database
+database_new: 
+<<: *common_database
